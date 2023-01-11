@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carfinder</title>
+</head>
+<body>
+    <header>
+        <h1>Car-Finder</h1>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>Zoek jij een nieuwe wagen? Zoek dan de juiste die bij je past!</h2>
+            <img src="images/auto.jpg" alt=""width= "500">
+            <P>klik hier voor <a href="http://google.com">meer matchapps.</a></P>
+        </section>
+        <section> <id="lijstjes">
+            <h2>wat proberen we te achterhalen in deze matchapp?</h2>
+            <ul>
+                <li>welk model van wagen?</li>
+                <li>aantal plaatsen?</li>
+                <li>overige info?</li>
+            </ul>
+            <h2>hoe gaat u te werk</h2>
+            <ol>
+                <li>voer de korte vragenlijst in</li>
+                <li>voer (eventuele) contactgegevens in</li>
+                <li>kijk welke auto het best bij u past</li>
+            </ol>
+        </section>
+        <section id="formulier">
+            <form action="">
+                <fieldset>
+                    <legend>wat is uw naam?</legend>
+                    <input type="text" placeholder="schrijf hier je bijnaam">
+                      
+                </fieldset>
+                <fieldset>
+                    <legend>uit hoeveel andere mensen bestaat uw gezin?</legend>
+                    <input type="number" name="leeftijd" min="1"
+                    max="120">
+                </fieldset>
+            <fieldset>
+                <legend>verkiest u een kleur?</legend>
+                <input type="radio" name="color" value="rood"> rood
+                <input type="radio" name="color" value="blauw"> blauw
+                <input type="radio" name="color" value="zwart"> zwart
+                <input type="radio" name="color" value="grijs"> grijs
+                <input type="radio" name="color" value="overige"> overige
+            </fieldset>
+            <fieldset>
+                <legend>wat heeft u graag in uw auto?</legend>
+                <input type="checkbox" name="graag" value="gps"> gps
+                <input type="checkbox" name="graag" value="stoelverwarming"> stoelverwarming
+                <input type="checkbox" name="graag" value="overige"> overige
+            </fieldset>
+            <fieldset>
+                <legend>voer uw e-mail in</legend>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>wilt u reclame ontvangen?</legend>
+                <select name="enquete" >
+                <option value="ja">ja</option>
+                <option value="nee">nee</option>
+            </select>
+            </fieldset>
+            <fieldset>
+                <button type="submit">verzenden</button>
+                <button type="reset">reset</button>
+            </fieldset>
+            </form>
+        </section>
+
+    </main>
+</body>
+</html>
