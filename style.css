@@ -1,0 +1,44 @@
+header {
+    border: 2px solid rgb(97, 116, 179);
+    border-radius: 20px;
+    padding: 2px;
+    background-color: rgb(121, 160, 194);
+    text-align: center;
+}
+
+body {
+    background-color: hsl(193, 46%, 73%);
+    color: hsl(226, 46%, 45%);
+    font-family: Arial;
+}
+
+#about {
+    display: flex;
+    padding: 1% 0;
+}
+
+
+.left {
+    flex: 3;
+    margin: 1px;
+}
+
+.right {
+    flex: 7; 
+    margin: 1px;
+}
+
+.col {
+    border: 2px solid rgb(97, 116, 179);
+    border-radius: 20px;
+    padding: 22px;
+    background-color: rgb(121, 160, 194);
+}
+
+footer {
+    border: 2px solid rgb(97, 116, 179);
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(121, 160, 194);
+    text-align: center;
+}
