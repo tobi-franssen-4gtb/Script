@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    box-sizing: border-box;
+
     padding: 0;
 }
 
@@ -8,16 +8,25 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+img {
+    width: 100%;
+}
+
 .flex-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+section {
+    padding:0 4rem
 }
 
 header {
     padding: 20px;
     background-color: rgb(255, 255, 255);
-    
+   
 }
 
 
@@ -25,13 +34,43 @@ header {
 header input {
     margin-left: 50%;
     width: 100px;
-    border-width: 0;
-}
-
+    border: 0;
+} 
 header nav li {
     display: inline;
 }
 
 header img {
     width: 120px;
+}
+.videoframe {
+    overflow: hidden;
+    margin-bottom: 3rem;
+    max-height: 50vh;
+}
+
+video {
+    width: 100%;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+   
+}
+
+.flex-item {
+    flex: 1;
+   
+}
+#membership .flex-container {
+    padding: 2rem
+}
+
+.highlight{
+    background-color: rgb(255, 255, 255);
+    padding: 2rem
+}
+figure {
+    position: relative;
 }
