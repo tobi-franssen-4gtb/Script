@@ -1,20 +1,51 @@
-@import url("https://use.typekit.net/hfi1kak.css");
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    align-items: end;
+    background-color: rgb(68, 0, 255);
+    align-items: center;
+    padding: 2rem;
+}
+header li {
+    display: inline;
+}
+header .logo {
+display: flex;
+align-items: center;
+}
+a {
+    color: rgb(0, 0, 0);
+}
+
+header img {
+    width: 50px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+@import url("https://use.typekit.net/hfi1kak.css%22");
 
 :root {
-    --bgc-01: hsl(0, 0%, 02%);
+    --bgc-01: hsl(0, 100%, 50%);
     --bgc-02: hsl(0, 0%, 08%);
     --txt-01: hsl(0, 0%, 90%);
 }
 
-* {
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
 }
 
 body {
-    background-color: var(--bgc-01);
+    background-color:rgb(4, 0, 902);
     color: var(--txt-01);
     font-family: "owners-wide", sans-serif;
     line-height: 1;
+}
+main img {
+    width: 200px;
 }
