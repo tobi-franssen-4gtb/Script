@@ -26,7 +26,7 @@ header img {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
-@import url("https://use.typekit.net/hfi1kak.css%22");
+@import url("https://use.typekit.net/hfi1kak.css");
 
 :root {
     --bgc-01: hsl(0, 100%, 50%);
